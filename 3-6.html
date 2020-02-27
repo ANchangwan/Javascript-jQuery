@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-6)조건문예제</title>
+</head>
+<body>
+
+<script>
+
+    var id="ssdii44";
+    var pw="1501023";
+
+    var user_id=prompt("아이디를 입력하세요.","");
+    var user_pw=prompt("비번을 입력하세요.","");
+
+    if(id==user_id){
+        if(pw==user_pw){
+
+        document.write(user_id+"님 화영합니다");
+
+        }else{
+        alert("비밀번호가 틀렸습니다.");
+        location.reload();
+        }
+
+        }
+    else{
+        alert("id가 틀렸습니다.");
+        location.reload();
+        }
+
+</script>
+
+
+    
+</body>
+</html>
