@@ -39,3 +39,17 @@ ex) c언어, 자바</br>
  
 
 </pre>
+
+<h2>preventDefault() </h2>
+<p>
+a 태그나 submit 태그를 누르면 창이 새로고침이 된다. 이러한 문제점을 해결하기 위해서 preventDefault가 필요하다.</br>
+preventDefault는 새로고침을 막을 수 있다. submit이 실행되면 바로 새로고침되는 문제가 발생하는데 이 함수를 이용하면</br>
+submit 이벤트만 발생하고 새로고침은 발생하지 않는다.</br>
+<pre>
+const on_login_submit = (event) =>{
+   event.preventDefault();
+   console.log(event);
+}
+</pre>
+
+ </p>
