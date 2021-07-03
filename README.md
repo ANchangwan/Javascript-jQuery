@@ -51,5 +51,13 @@ const on_login_submit = (event) =>{
    console.log(event);
 }
 </pre>
-
+<h2>querySelector(selectors)</h2>
+ <p>
+  html 문서내에 일치하는 선택자 또는 선택자 뭉치와 일치하는 첫번째 Element를 반환한다. 일치하는 요소가 없으면  null을 반환한다.
+  <h3>구문</h3>
+  <pre>
+   const select_element = document.querySelector(seletors);
+  </pre>
+  
+  select_element라는 변수에 html 문서 내에 id값 class값을 저장해서 자바스크립트로 동적으로 html를 동적으로 만들 수 있다.</br> 
  </p>
