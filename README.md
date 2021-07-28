@@ -35,6 +35,10 @@ ex) c언어, 자바</br>
  var a = new 함수명(변수, 변수);
  console.log(a.first);
  console.log(a.second);
+ </br>
+ 4.</br>
+ const a = x => x*x;
+ console.log(a(5)) // 25
  
  
 
